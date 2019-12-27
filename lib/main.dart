@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/home.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -21,9 +23,7 @@ class Main extends StatefulWidget {
 class _MainState extends State<Main> {
   int _selectedPage = 0;
   final _pages = [
-    Center(
-      child: Text("welcome")
-    ),
+    Home(),
     Center(
         child: Text("welcome 2")
     ),
